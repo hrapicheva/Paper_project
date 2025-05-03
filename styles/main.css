@@ -1,0 +1,41 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Ubuntu:wght@300&display=swap');
+@import url(header.css);
+@import url(frame_1.css);
+@import url(frame_2.css);
+@import url(frame_3.css);
+@import url(frame_4.css);
+@import url(frame_5.css);
+@import url(footer.css);
+
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #EBEBEB;
+
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: #4C5866; /* Цвет после посещения */
+}
+
+a:active {
+    color: #4C5866; /* Цвет при нажатии */
+}
+/* .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+  }
+
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+  }
+
+  .ubuntu-light {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+  } */

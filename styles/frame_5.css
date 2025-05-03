@@ -1,0 +1,42 @@
+.frame_5 {
+    background-color: white;
+    padding: 90px 165px 0px 165px;
+
+}
+
+.content_frame_5 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.content_frame_5 .text {
+    padding-top: 24px;
+}
+
+.content_frame_5 h3 {
+    font-size: 40px;
+    line-height: 100%;
+    color: #666
+}
+
+.content_frame_5 p {
+    font-size: 18px;
+    line-height: 170%;
+    color: #85859b;
+    max-width: 340px;
+    max-height: 124px;
+    margin-top: 8px;
+}
+
+.content_frame_5 button {
+    border: 1px solid #7875fe;
+    padding: 20px 50px;
+    width: 255px;
+    height: 70px;
+    font-size: 20px;
+    color: #7875fe;
+    background-color: white;
+    margin-top: 30px;
+}

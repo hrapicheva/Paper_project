@@ -1,0 +1,62 @@
+
+.frame_1 {
+    background-color: #FFFFFF;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.content_frame_1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.frame_1_text {
+    width: 445px;
+    height: 361px;
+    margin-top: 130px;
+    margin-bottom: 129px;
+    margin-right: 30px;
+}
+
+h1{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    color: #4c5866;
+}
+
+.frame_1_text p {
+    font-size: 18px;
+    line-height: 150%;
+    color: #85859b;
+    margin-top: 30px;
+}
+
+.frame_1_text button {
+    border: 1px solid #7875fe;
+    padding: 20px 50px;
+    width: 255px;
+    height: 70px;
+    font-size: 20px;
+    color: #7875fe;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.frame_1_img {
+    flex-shrink: 1; /* Позволяем картинке уменьшаться */
+    max-width: 540px; /* Устанавливаем максимальный размер */
+    width: 100%; /* Делаем адаптивным */
+    height: auto;
+    margin-top: 60px;
+    overflow: hidden; /* Обрезает нижнюю часть изображения */
+}
+
+.frame_1_img img {
+    max-width: 100%;
+    height: auto;
+}
+

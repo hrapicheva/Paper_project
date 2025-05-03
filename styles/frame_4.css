@@ -1,0 +1,10 @@
+.frame_4 {
+    margin: 90px 165px;
+}
+
+.content_frame_4 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1110px;
+}

@@ -1,0 +1,43 @@
+.footer_1 {
+    background-color: #4C5866;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.content_footer_1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1110px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.footer_logo {
+    display: flex;
+    height: 22px;
+    width: 140px;
+}
+
+.soc_net {
+    display: flex;
+    max-width: 186px;
+}
+.soc_net img {
+    margin-left: 30px;
+    max-width: 21px;
+}
+
+.footer_2 {
+    display: flex;
+    justify-content: center;
+    height: 21px;
+}
+
+.footer_2 p {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #4c5866;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
