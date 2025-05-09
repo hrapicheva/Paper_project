@@ -9,13 +9,14 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    padding-top: 60px;
     max-width: 1110px;
 }
 
 .frame_1_text {
     width: 445px;
     height: 361px;
-    margin-top: 130px;
+    margin-top: 70px;
     margin-bottom: 129px;
     margin-right: 30px;
 }
@@ -50,13 +51,6 @@ h1{
     flex-shrink: 1; /* Позволяем картинке уменьшаться */
     max-width: 540px; /* Устанавливаем максимальный размер */
     width: 100%; /* Делаем адаптивным */
-    height: auto;
-    margin-top: 60px;
-    overflow: hidden; /* Обрезает нижнюю часть изображения */
-}
-
-.frame_1_img img {
-    max-width: 100%;
     height: auto;
 }
 

@@ -46,9 +46,13 @@ header {
     color: #4C5866;
 }
 
-.header_pages_text{
+.header_pages_text {
     margin-right: 60px;
     padding: 2px 0px;
+}
+
+.header_pages_text a {
+    color: #4C5866;
 }
 
 .search {
