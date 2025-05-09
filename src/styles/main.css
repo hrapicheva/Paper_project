@@ -8,6 +8,11 @@
 @import url(frame_5.css);
 @import url(footer.css);
 
+html {
+  transform: scale(1);
+  transform-origin: top left;
+}
+
 body {
     font-family: "Roboto", serif;
     font-weight: 400;
