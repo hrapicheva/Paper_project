@@ -1,6 +1,7 @@
  /* HEADER */
 header {
     background-color: #FFFFFF;
+    border-bottom: 1px solid #ddd;
 }
 
 .content_header {
@@ -65,41 +66,30 @@ header {
     height: 24px;
 }
 
-.search-container {
-    border-top: 1px solid #ddd;
-
-}
-
 .search-box-wrapper {
+    max-width: 0;
     opacity: 0;
-    max-height: 0;
     overflow: hidden;
-    transition: opacity 0.4s ease, max-height 0.4s ease;
-}
+    transition: max-width 0.5s ease, opacity 0.5s ease;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .search-box-wrapper.visible {
+    max-width: 300px; /* конечная ширина */
+    opacity: 1;
+  }
+  
 
 .search-box {
     display: flex;
-    max-width: 1110px;
     font-weight: 400;
-    height: 26px;
-    margin: 3px auto;
-}
-
-.search-box-wrapper.visible {
-    opacity: 1;
-    max-height: 32px; /* Настрой под контент */
-  }
-
-.search-box button {
-    width: 24px;
-    font-size: 20px;
-    border: none;
-    background-color: #FFFFFF;
-    margin-right: 7px;
+    height: 24px;
 }
 
 .search-box input {
-    width: 100%; /* Вместо 1079px */
+    width: 100%;
     font-size: 16px;
     color: #333;
     border: none;

@@ -17,20 +17,17 @@
             </a>
             <ul class="header_pages">
                 <li class="header_pages_text"> <a href="#">Продукция</a></li>
-                <li class="header_pages_text"> <a href="#section4">Материалы</a></li>
+                <li class="header_pages_text"> <a href="#">Материалы</a></li>
                 <li class="header_pages_text"> <a href="#">О нас</a></li>
                 
                 <li class="search"> <a href="#"><img src="src/img/Search.svg" alt="" srcset=""></a></li>
+                    <div class="search-box-wrapper">
+                        <form class="search-box" action="#" method="get">
+                        <input type="text" placeholder="Поиск..." name="search">
+                        </form>
+                    </div>
                 <li class="exit"> <a href="#"><img src="src/img/exit.svg" alt="" srcset=""></a></li>
             </ul>
-        </div>
-        <div class="search-container">
-            <div class="search-box-wrapper">
-                <form class="search-box" action="#" method="get">
-                <button type="submit"><img src="src/img/Search.svg" alt="" srcset=""></button>
-                <input type="text" placeholder="Поиск..." name="search">
-                </form>
-            </div>
         </div>
     </header>
     <main>
@@ -130,7 +127,7 @@
                 </div>
             </div>
         </div>
-        <div class="frame_4" id="section4">
+        <div class="frame_4">
             <div class="content_frame_4">
                 <div class="frame_4_1">
                     <img src="src/img/Frame_4_1.png" alt="">
@@ -184,7 +181,6 @@
     const searchTrigger = document.querySelector('.search a');
     const searchWrapper = document.querySelector('.search-box-wrapper');
     const searchInput = document.querySelector('.search-box input');
-    const form = document.querySelector('.search-box');
   
     // Показ/скрытие и автофокус
     searchTrigger.addEventListener('click', function (e) {
@@ -202,11 +198,5 @@
         searchWrapper.classList.remove('visible');
       }
     });
-
-    // Отмена отправки формы и предотвращение изменения масштаба
-    form.addEventListener('submit', function(e) {
-      e.preventDefault(); // Отменяем стандартное поведение формы
-    });
-    
-</script>
+  </script>
 </html>
