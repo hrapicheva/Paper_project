@@ -2,6 +2,8 @@
     margin: 0 auto;
     padding: 90px 165px;
     background-color: white;
+    display: flex;
+    justify-content: center;
 }
 
 .content_frame_3 {

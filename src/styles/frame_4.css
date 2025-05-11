@@ -1,5 +1,7 @@
 .frame_4 {
-    margin: 90px 165px;
+    margin: 90px auto;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .content_frame_4 {

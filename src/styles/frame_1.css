@@ -1,5 +1,7 @@
 
 .frame_1 {
+    display:flex;
+    justify-content: center;
     background-color: #FFFFFF;
     padding-left: 165px;
     padding-right: 165px;
@@ -14,8 +16,8 @@
 }
 
 .frame_1_text {
-    width: 445px;
-    height: 361px;
+    max-width: 445px;
+    max-height: 361px;
     margin-top: 70px;
     margin-bottom: 129px;
     margin-right: 30px;
