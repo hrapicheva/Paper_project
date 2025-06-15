@@ -15,6 +15,7 @@
 
 .frame_3_1, .frame_3_2, .frame_3_3, .frame_3_4 {
     max-width: 255px;
+    margin-right: 30px;
 }
 
 .content_frame_3 img {

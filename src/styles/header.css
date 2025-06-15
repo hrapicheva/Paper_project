@@ -101,7 +101,7 @@ header {
     outline: none; /* Убирает стандартную обводку при фокусе */
   }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
     h1 {
         
     }
