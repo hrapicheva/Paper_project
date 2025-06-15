@@ -1,16 +1,13 @@
 .footer_1 {
     background-color: #4C5866;
-    padding-left: 165px;
-    padding-right: 165px;
+    padding: 28px 165px;
 }
 
 .content_footer_1 {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 1110px;
-    padding-top: 28px;
-    padding-bottom: 28px;
+    width: 1110px;
 }
 
 .footer_logo {
@@ -21,7 +18,7 @@
 
 .soc_net {
     display: flex;
-    max-width: 186px;
+    max-width: 216px;
 }
 .soc_net img {
     margin-left: 30px;

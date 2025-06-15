@@ -1,21 +1,21 @@
 .frame_3 {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
     padding: 90px 165px;
     background-color: white;
-    display: flex;
-    justify-content: center;
 }
 
 .content_frame_3 {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    justify-content: center;
+    max-width: 1110px;  
 }
 
 .frame_3_1, .frame_3_2, .frame_3_3, .frame_3_4 {
     max-width: 255px;
-    margin-right: 30px;
 }
 
 .content_frame_3 img {

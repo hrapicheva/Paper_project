@@ -3,15 +3,14 @@
     display:flex;
     justify-content: center;
     background-color: #FFFFFF;
-    padding-left: 165px;
-    padding-right: 165px;
+    padding: 60px 165px 0px 165px;
 }
 
 .content_frame_1 {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    justify-content: center;
     max-width: 1110px;
 }
 
