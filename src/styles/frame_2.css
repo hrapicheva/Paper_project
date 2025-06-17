@@ -5,6 +5,8 @@
     padding: 90px 165px;
     background-color: #EBEBEB;
     align-items: center;
+    position: relative; /* сохраняет положение в потоке */
+    z-index: 10; /* поднимает над другими элементами */
 }
 
 .frame_2_versions {
@@ -76,4 +78,20 @@
     font-size: 18px;
     line-height: 170%;
     color: #85859b;
+}
+
+
+@media (max-width: 768px) {
+  .frame_2_versions {
+    grid-template-columns: 1fr; /* одна колонка на маленьком экране */
+  }
+
+  .frame_2_description {
+    grid-template-columns: 1fr;
+  }
+
+  .frame_2_description .text {
+    max-width: 100%;
+    margin: 30px 0;
+  }
 }
