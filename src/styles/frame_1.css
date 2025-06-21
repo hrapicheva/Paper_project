@@ -60,126 +60,100 @@ h1{
     min-width: 195px;
 }
 
-/* Масштабирование размера блока */
 
-@media (min-width: 769px) {
-.frame_1 {
-    padding: 60px 165px 0px 165px;
-    max-height: 620px;
-}
-
-.content_frame_1 {
-    max-width: 1110px;
-}
-.frame_1_text {
-    margin-top: 70px;
-}
-} 
-
+/* до 768px и меньше */
 @media (max-width: 768px) {
-.frame_1 {
-    padding: 60px 39px 0px 39px;
-    max-height: 470px;
-}
 
-.content_frame_1 {
-    max-width: 690px;
-}
-.frame_1_text {
-    margin-top: 5px;
-}
-}
+/* Масштабирование размера блока */
+    .frame_1 {
+        padding: 60px 39px 0px 39px;
+        max-height: 470px;
+    }
 
-@media (max-width: 576px) {
-.frame_1 {
-    padding: 20px 33px 0px 33px;
-    max-height: 416px;
-}
+    .content_frame_1 {
+        max-width: 690px;
+    }
+    .frame_1_text {
+        margin-top: 5px;
+    }
 
-.content_frame_1 {
-    max-width: 510px;
-}
-.frame_1_text {
-    margin-top: 40px;
-}
-}
-
-@media (max-width: 320px) {
-.frame_1 {
-    padding: 49px 15px 0px 15px;
-    max-height: 320px;
-}
-
-.content_frame_1 {
-    max-width: 290px;    
-}
-.frame_1_text {
-    margin-top: 0px;
-}
-}
-
-/* Масштабирование текста */
-@media (min-width: 577px) {
+    /* Масштабирование текста */
     h1{
     font-size: 60px;
+    }
+
+    .frame_1_text p {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .frame_1_text button {
+        font-size: 20px;
+        margin-top: 15px;
+    }
 }
 
-.frame_1_text p {
-    font-size: 18px;
-    margin-top: 30px;
-}
-
-.frame_1_text button {
-    font-size: 20px;
-    margin-top: 30px;
-}
-} 
-
-@media (min-width: 577px) {
-    h1{
-    font-size: 60px;
-}
-
-.frame_1_text p {
-    font-size: 18px;
-    margin-top: 30px;
-}
-
-.frame_1_text button {
-    font-size: 20px;
-    margin-top: 15px;
-}
-} 
-
+/* до 576px и меньше */
 @media (max-width: 576px) {
+
+    /* Масштабирование размера блока */
+    .frame_1 {
+        padding: 20px 33px 0px 33px;
+        max-height: 416px;
+    }
+
+    .content_frame_1 {
+        max-width: 510px;
+    }
+    .frame_1_text {
+        margin-top: 40px;
+    }
+
+    /* Масштабирование текста */
     h1{
     font-size: 38px;
+    }
+
+    .frame_1_text p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .frame_1_text button {
+        font-size: 20px;
+        margin-top: 10px;
+    }
 }
 
-.frame_1_text p {
-    font-size: 16px;
-    margin-top: 30px;
-}
-
-.frame_1_text button {
-    font-size: 20px;
-    margin-top: 10px;
-}
-}
-
+/* 320px и меньше */
 @media (max-width: 320px) {
+    
+    /* Масштабирование размера блока */
+    .frame_1 {
+        padding: 49px 15px 0px 15px;
+        max-height: 320px;
+    }
+
+    .content_frame_1 {
+        max-width: 290px;    
+    }
+    .frame_1_text {
+        margin-top: 0px;
+    }
+
+    /* Масштабирование текста */
     h1{
     font-size: 30px;
-}
+    }
 
-.frame_1_text p {
-    font-size: 14px;
-}
+    .frame_1_text p {
+        font-size: 14px;
+    }
 
-.frame_1_text button {
-    font-size: 18px;
-    margin-top: 30px;
-}
+    .frame_1_text button {
+        font-size: 18px;
+        margin-top: 30px;
+    }
 }
 
 /* масштабирование тубуса */
