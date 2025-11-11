@@ -15,10 +15,13 @@
 }
 
 .frame_1_text {
+    display: flex;
+    flex-direction: column;
     max-width: 445px;
     max-height: 361px;
     margin-top: 70px;
     margin-bottom: 129px;
+    min-width: 216px;
 }
 
 h1{
@@ -38,7 +41,9 @@ h1{
 
 .frame_1_text button {
     border: 1px solid #7875fe;
-    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px 50px; */
     width: 255px;
     height: 70px;
     font-size: 20px;
@@ -73,8 +78,10 @@ h1{
     .content_frame_1 {
         max-width: 690px;
     }
+
     .frame_1_text {
         margin-top: 5px;
+        max-height: 287px;
     }
 
     /* Масштабирование текста */
@@ -90,6 +97,8 @@ h1{
     .frame_1_text button {
         font-size: 20px;
         margin-top: 15px;
+        width: 255px;
+        height: 70px;
     }
 }
 
@@ -107,6 +116,8 @@ h1{
     }
     .frame_1_text {
         margin-top: 40px;
+        max-width: 287px;
+        max-height: 296px;
     }
 
     /* Масштабирование текста */
@@ -122,6 +133,16 @@ h1{
     .frame_1_text button {
         font-size: 20px;
         margin-top: 10px;
+        width: 196px;
+        height: 60px;
+    }
+
+    .frame_1_img {
+        display: block;
+    }
+
+    .frame_1_img img {
+        max-width: 195px;
     }
 }
 
@@ -136,35 +157,33 @@ h1{
 
     .content_frame_1 {
         max-width: 290px;    
+        grid-column-gap: 0px;
+        grid-template-columns: 1fr; /* Меняем с двух на одну колонку */
+        justify-items: center;      /* Центрируем содержимое */
     }
     .frame_1_text {
         margin-top: 0px;
+        max-width: 290px;  
     }
 
     /* Масштабирование текста */
     h1{
+    max-width: 221px;  
     font-size: 30px;
     }
 
     .frame_1_text p {
         font-size: 14px;
+        max-width: 290px; 
     }
 
     .frame_1_text button {
         font-size: 18px;
         margin-top: 30px;
+        width: 144px;
+        height: 50px;
     }
-}
 
-/* масштабирование тубуса */
-
-@media (min-width: 321px) {
-    .frame_1_img {
-        display: block;
-    }
-} 
-
-@media (max-width: 320px) {
     .frame_1_img {
         display: none;
     }
